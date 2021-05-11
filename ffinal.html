@@ -23,13 +23,21 @@
             <p>COMPANY NAME</p>
 
             <ul>
-                  <li><button class=buttons><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></button></li>
-                  <li><button class=buttons><i class="fa fa-file-text" aria-hidden="true"></i><span>Pages</span></button></li>
-                  <li><button class=buttons><i class="fa fa-cog" aria-hidden="true"></i><span>Services</span></button></li>
-                  <li><button class=buttons><i class="fa fa-calendar" aria-hidden="true"></i><span>Events</span></button></li>
-                  <li><button class=buttons><i class="fa fa-newspaper-o" aria-hidden="true"></i><span>Blog</span></button></li>
-                  <li><button class=buttons><i class="fa fa-life-ring" aria-hidden="true"></i><span>FAQs</span></button></li>
-                  <li><button class=buttons><i class="fa fa-phone" aria-hidden="true"></i><span>Contact</span></button></li>
+                  <li><button ><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></button></li>
+                  <li><button ><i class="fa fa-file-text" aria-hidden="true"></i><span>Pages</span></button>
+                    <ul class="dropdown">
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Volunteer Details</a></li>
+                      <li><a href="#">Our Gallery</a></li>
+                      <li><a href="#">Error 404</a></li>
+                      <li><a href="#">Comming soon</a></li>
+                    </ul>
+                  </li>
+                  <li><button ><i class="fa fa-cog" aria-hidden="true"></i><span>Services</span></button></li>
+                  <li><button ><i class="fa fa-calendar" aria-hidden="true"></i><span>Events</span></button></li>
+                  <li><button ><i class="fa fa-newspaper-o" aria-hidden="true"></i><span>Blog</span></button></li>
+                  <li><button ><i class="fa fa-life-ring" aria-hidden="true"></i><span>FAQs</span></button></li>
+                  <li><button ><i class="fa fa-phone" aria-hidden="true"></i><span>Contact</span></button></li>
 
               
              </ul>     
@@ -38,12 +46,13 @@
           </nav>
 
           <header class=frontpage>
-         
+            <div id="overlay"></div>
            
-            <h1 class="underline1">Save The Life</h1>
-            <p>Lorem Ipsum Dolor Sit Amet, Consectetur adipisicing Elit, Sed Do Eiusmod Tempor<br>incididunt Ut Labore Et Dolore Magna Aliqua</p>
-            <button>READ MORE</button>
-
+               <fieldset>
+                   <legend><h1 class="underline1">Save the life</h1></legend>
+                   <p>Lorem Ipsum Dolor Sit Amet, Consectetur adipisicing Elit, Sed Do Eiusmod Tempor<br>incididunt Ut Labore Et Dolore Magna Aliqua</p>    
+               </fieldset>
+               <button>READ MORE</button>
           </header>
 
           <section class= leaveusamessage>
@@ -153,7 +162,7 @@
                 <img src="c1.jpg" width="251" height="200">
                 <h5 class="underline4">Feed For Hungry Child</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur<br>elit.Sed eget lorem magna.Fusce eu urna a<br>sapin fringilla viverra.</p> 
-                <p class="slide1"></p><span class=slider1></span>
+                <p class="slide1"></p>
 
                 <ul class="one">
                   <li>Donate</li> 
@@ -230,7 +239,7 @@
                       <img src="g2.jpg" width="255" height="200">
                       <img src="g3.jpg" width="255" height="195">
                     </div>
-                    <img class="opac" src="g4.jpg" width="300" height="401">
+                    <img src="g4.jpg" width="300" height="401">
                     <div class="photosgallery">
                       <img src="g5.jpg" width="350" height="200">
                       <img src="g6.jpg" width="350" height="195">

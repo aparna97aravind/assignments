@@ -1,144 +1,14 @@
 html{
     font-family:serif;
-}
+  }
+  
 h3{
     margin: 0px;
     font-size: x-large;
-}
-
-h4{ 
-    margin: 10px 0px;
-    padding-top: 45px;
-    color: black;
-    text-align: center;
-}
-.underline1::after {
-    content:'';
-    position: relative;
-    display: block;
-    margin-left: 567px;
-    background-color: red;
-    width: 15%;
-    height: 2px;
-}
-.underline2::after {
-    content:'';
-    position: relative;
-    display: block;
-    background-color: red;
-    width: 30%;
-    height: 1px;
-  }
-  .underline3::after {
-    content:'';
-    position: relative;
-    display: block;
-    background-color: red;
-    width: 16%;
-    height: 1px;
-  }
-  .underline4::after{
-    content:'';
-    position: relative;
-    display: block;
-    background-color: red;
-    width: 26%;
-    height: 1px;
-  }
-  .underline5::after{
-    content:'';
-    position: relative;
-    display: block;
-    background-color: red;
-    width: 11%;
-    height: 1px;
-  }
-  .headlinks::after{
-    content:'';
-    position: relative;
-    display: block;
-    background-color: red;
-    width: 28%;
-    height: 1px;
-  }
-  .leavehead::after{
-    content:'';
-    position: relative;
-    display: block;
-    background-color: red;
-    width: 5%;
-    height: 1px;
   }
 
-.undertext {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 13px;
-    color: grey;
-    text-align: center;
-}
-.topnav {
-    width: 920px;
-    height: 55px;
-    margin-left: 170px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-   
-}
-.topnav ul {
-    width: 500px;
-    height: 40px;
-    margin-top: 10px;
-
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    list-style: none;
-    padding-left: 0px;
-    
-}
-.topnav ul button:hover{
-    background-color: white ;
-    color: rgb(212, 65, 39);
-}
-
-.topnav p {
-    color: red;
-    font-size: 19px;
-    font-weight: 700;
-    margin-top: 15px;
-    margin-left: 40px;
-}
-.topnav ul li{
-    margin-left: 5px;  
-
-}
-.topnav ul li span {
-    margin-left: 0px;
-}
-.topnav button{
-        width: 60px;
-        height: 40px;
-        background-color: white ;
-        color:black ;
-        border: 1px solid white ;
-        font-size: 16px;
-        margin-top: 0px;
-}
-.topnav .donate {
-    margin-top: 15px;
-    margin-left: 20px;
-    width: 140px;
-    height: 25px;
-    font-size: 14px;
-    background-color: white ;
-    color: rgb(212, 65, 39) ;
-    border: 1px solid  rgb(212, 65, 39);
-}
-aside{
+/* topbar */
+  aside{
     width: 1330px;
     height: 40px;
     margin-top: 0px;
@@ -147,8 +17,8 @@ aside{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-}
-aside ul{
+  }
+  aside ul{
     
     width: 300px;
     height: 40px;
@@ -160,33 +30,180 @@ aside ul{
     flex-direction: row;
     justify-content: center;
     list-style: none;
-}
-aside ul li {
+  }
+  aside ul li {
     color: white;
     margin-right: 4px;
-
-}
-
-.frontpage{
+  
+  }
+  .btn{
+    width : 40px;
+    height: 40px;
+    background-color: orangered;
+    border: 1px solid  orangered;
+    color: white;
+    margin-top: 0px;
+  }
+  .butn{
+    width : 40px;
+    height: 40px;
+    background-color:rgb(43, 40, 40) ;
+    border: 1px solid rgb(43, 40, 40);
+    color: white;
+    margin-top: 0px;
+  }
+  
+  .topnav {
+    width: 920px;
+    height: 55px;
+    margin-left: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+   
+  }
+  .topnav ul {
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0px;
+    
+  }
+  .topnav p {
+    color: red;
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-left: 40px;
+  }
+  .topnav ul li{
+    margin-left: 5px;  
+  
+  }
+  .topnav ul span {
+    display: block;
+    font-size: 13px;
+    margin-left: 15px;
+  }
+  .topnav ul li span {
+    margin-left: 0px;
+  }
+  .topnav button{
+        width: 60px;
+        height: 40px;
+        background-color: white ;
+        color:black ;
+        border: 1px solid white ;
+        font-size: 16px;
+        margin-top: 0px;
+  }
+  .topnav ul button:hover{
+    background-color: white ;
+    color: rgb(212, 65, 39);
+  }
+  
+  .topnav ul li ul.dropdown {
+    width :150px;
+    height: 140px;
+    background: white;
+    display: none;
+    position: absolute;
+  }
+  .topnav ul li:hover ul.dropdown {
+    display: block; 
+  }
+  .topnav ul li ul.dropdown li {
+    display: block;
+    padding: 5px;
+  }
+  .topnav ul li ul.dropdown a {
+      color: grey;
+      text-decoration: none;
+  
+  } 
+  .topnav ul li ul.dropdown a:hover {
+      color: orangered;
+  }
+  .topnav .donate {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 140px;
+    height: 25px;
+    font-size: 14px;
+    background-color: white ;
+    color: rgb(212, 65, 39) ;
+    border: 1px solid  rgb(212, 65, 39);
+  }
+  /* 1st page */
+  .frontpage{
     width: 1330px;
     height: 600px;
     border: 1px solid  rgba(195, 201, 192, 0.979);
     color: white;
     text-align: center;
     background-image: url(slider.jpg);
+    background-color: rgba(0, 0, 0, 0.658);
     background-size: 100% 100%; 
     
-}
-.frontpage h1 {
-    margin-top: 200px;
-}
-.frontpage button{
+  }
+  .frontpage h1 {
+    margin-top: 5px;
+    font-size: 50px;
+    margin-bottom: 0px;
+  }
+  .underline1::after {
+    content:'';
+    position: relative;
+    display: block;
+    background-color: red;
+    width: 100%;
+    height: 2px;
+  }
+  .frontpage p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+  
+  }
+  .frontpage button {
     border: 1px solid white;
-    width : 100px;
-    height: 30px;
+    margin-top : -15px;
+    width : 130px;
+    height: 40px;
     color: white;
     background-color: transparent;
-}
+    padding : 10px;
+  }
+  #overlay {
+    background-color: rgba(0,0,0,0.5);
+    cursor: pointer;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+  }
+  fieldset {
+    background-color: transparent;
+    margin-top: -430px;
+    width: 600px;
+    margin-left: 350px;
+    height : -10px;
+  }
+  
+  legend {
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    padding: 5px 10px;
+  }
+  /* 2nd page form */
+  
 .leaveusamessage form{
     margin-top: -85px;
     margin-left: 265px;
@@ -197,16 +214,16 @@ aside ul li {
     padding: 10px;
     float: left;
     box-shadow: 5px 5px 10px 5px #d4cccc;
-}
-.leaveusamessage form .labelling {
+  }
+  .leaveusamessage form .labelling {
     margin-top: 0px;
     margin-left: 20px;
     color: grey;
-}
-.leaveusamessage form .reminderlabel{
+  }
+  .leaveusamessage form .reminderlabel{
     color: orangered;
-}
-.leaveusamessage input[type=text]{
+  }
+  .leaveusamessage input[type=text]{
     margin-top: 5px;
     margin-bottom: 10px;
     margin-left: 20px;
@@ -214,8 +231,8 @@ aside ul li {
     width: 200px;
     height: 25px;
     background-color: rgba(195, 201, 192, 0.979);
-}
-.leaveusamessage input[type=email]{
+  }
+  .leaveusamessage input[type=email]{
     margin-top: 5px;
     margin-bottom: 10px;
     margin-left: 20px;
@@ -223,13 +240,13 @@ aside ul li {
     width: 200px;
     height: 25px;
     background-color: rgba(195, 201, 192, 0.979);
-}
-.leaveusamessage input[type=checkbox]{
+  }
+  .leaveusamessage input[type=checkbox]{
     margin-left: 20px;
     margin-top: 15px;
     border-color: grey ;
-}
-.leaveusamessage form button{
+  }
+  .leaveusamessage form button{
     width: 203px;
     height: 25px;
     color: white;
@@ -237,21 +254,46 @@ aside ul li {
     border:  1px solid orangered ;
     margin-left: 20px;
     margin-top: 30px;
-}
-.leavetext{
+  }
+
+  /* page 2 */
+  h4{ 
+    margin: 10px 0px;
+    padding-top: 45px;
+    color: black;
+    text-align: center;
+  }
+  .underline2::after {
+    content:'';
+    position: relative;
+    display: block;
+    background-color: red;
+    width: 30%;
+    height: 1px;
+  }
+  .leavetext{
     margin-left: 550px;
     margin-bottom: 20px;
-}
-.leavehead {
+  }
+  .leavehead {
     margin-top : 0px;
     margin-left :550px;
     margin-bottom : 10px;
     padding-top : 20px;
     text-align: left;
     
-}
-
-.leaveusamessage section {
+  }
+  .leavehead::after{
+    content:'';
+    position: relative;
+    display: block;
+    background-color: red;
+    width: 5%;
+    height: 1px;
+  }
+  
+  
+  .leaveusamessage section {
     margin-top: 70px;
     width: 850px;
     height: 250px;
@@ -259,17 +301,21 @@ aside ul li {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
-}
-.leaveusamessage article {
+  
+  }
+  .leaveusamessage article {
     width : 260px;
     height: 110px;
     border: 1px solid rgb(200, 206, 209);
-
-}
-
-
-.boxes h5{
+  
+  }
+  .leaveusamessage article:hover{
+  
+    border: 1px solid orangered;
+  
+  }
+  
+  .boxes h5{
     font-size: medium;
     font-weight: bold;
     color: black;
@@ -277,19 +323,43 @@ aside ul li {
     margin-bottom: 10px;
     padding-left: 70px;
     
-}
-.boxes p {
+  }
+  .boxes p {
     
     color: grey;
     font-size: 13px;
     padding-left: 70px;
-}
+  }
+  .buttonleave {
+    margin-top: 8px;
+    margin-left: 8px;
+    width : 40px;
+    height : 40px;
+    border: 1px solid rgba(195, 201, 192, 0.979);
+    color: orangered;
+    background-color: white;
+    float: left;
+  }
+  .buttonleave:hover{
+    border: 1px solid orangered;
+    color: white;
+    background-color: orangered;
+  
+  }
+  /* page 3 */
 
-.aboutus {
+  .aboutus {
     background-color: whitesmoke;
-}
-
-.aboutus article {
+  }
+  .undertext {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: grey;
+    text-align: center;
+  }
+  
+  .aboutus article {
     
     height: 200px;
     margin-left: 50px;
@@ -299,388 +369,34 @@ aside ul li {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-}
-.aboutus article div {
+  }
+  .aboutus article div {
     height: 290px;
     margin-top: 0px;
     margin-left: 20px;
     padding-left: 10px;
-}
-.aboutus article div p{
+  }
+  .aboutus article div p{
     font-size: 13px;
     color: grey;
     text-align: start;
     margin-bottom: 35px;
-}
-.aboutus article figure{
+  }
+  .aboutus article figure{
     margin: 10px 15px 10px 25px;
-}
-.aboutus article div h5{
+  }
+  .aboutus article div h5{
     margin-top: 13px;
     margin-bottom: 3px;
     font-weight: 700;
     text-align: start;
-}
-
-
-.ourcauses article {
-    width: 800px;
-    height: 480px;
-
-    margin: 20px 0px 50px 270px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.ourcauses article figure h5 {
-    text-align: start;
-    margin-left: 15px;
-    margin-right: 15px;
-    font-size: 15px;
-}
-.ourcauses article figure p{
-
-    font-size: 12px;
-    color: grey;
-    text-align: start;
-    margin-left: 15px ;
-    margin-right: 15px;
-    margin-bottom: 35px;
-}
-.ourcauses article figure {
-    height: 450px;
-    margin-left: 0px ;
-    margin-right: 0px;
-    border: 1px solid rgb(209, 207, 207);
-}
-.ourcauses article figure .one , .two{
-    width: 205px;
-    height: 20px;
-    padding-left: 20px;
-    margin : 5px 10px 2px 0px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
+  }
+  .pt {
+    color: red;
+    text-align: center;
+  }
   
-}
-.ourcauses article figure .one li {
-    
-    color: black;
-    font-size: 13px;
-    font-weight: bold;
-    list-style: none;
-
-}
-.ourcauses article figure .two li {
-    list-style: none;
-    color: red;
-    font-size: 12px; 
-}
-.ourcauses article figure .slide1{
-    content:'';
-    position: relative;
-    display: block;
-    background-color: red;
-    width: 40%;
-    height: 3px;
-}
-.ourcauses article figure .slide2{
-    
-    content:'';
-    position: relative;
-    display: block;
-    background-color: red;
-    width: 60%;
-    height: 3px;
-}
-.ourcauses article figure .slide3{
-    content:'';
-    position: relative;
-    display: block;
-    background-color: red;
-    width: 80%;
-    height: 3px;
-}
-.videostory {
-    
-    height : 400px;
-    background-color: black;
-    border: 1px solid black;
-}
-.videostory figcaption{
-    height: 250px;
-    margin-top: 85px;
-    margin-left: 680px;
-    color: white;
-    text-align: start;  
-}
-.videostory figure{
-    height: 250px;
-    float: left;
-    margin: 75px 0px 0px 200px;
-}
-.opac {
-    background: rgb(0, 0, 0, 0.5);
-}
-.videostory figure {
-    position: relative;
-}
-.image1 {
-    position: relative;
-    opacity: 0.4;
-    top :0 ;
-    left: 0;
-}
-.image2{
-    position: absolute;
-   top :100px;
-   left: 200px;
-}
-.gallery figure {
-    
-    height: 400px;
-    margin-left: 5px;
-    
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.gallery figure .photo {
-    width: 250px;
-}
-.volunteer article figcaption:hover{
-    
-    box-shadow: 5px 5px 5px 5px rgb(143, 144, 145);
-    transition: all;
-}
-.gallery figure .photosgallery {
-    width : 300px;
-}
-.volunteer {
-    background-color: whitesmoke;
-    padding-bottom: 50px;
- }
-.volunteer div {
-    color: orangered;
-    padding-top: 50px;
-    text-align: center;
-    font-size: 10px;
-
-}
-.volunteer div i {
-    margin-left: 10px;
-}
-.voluntext {
-    font-size: 14px;
-    color: grey;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 20px;
-}
-.volunteer article figcaption h5{
-    margin-top: 90px;
-    color: rgb(43, 40, 40);
-    text-align: center;
-    margin-bottom: 0px;
-    font-size: 15px ;
-}
-.volunteer article figcaption h5 p {
-    margin-bottom: 5px;
-}
-.volunteer article figure img{
-    margin-left: 30px;
-    position: absolute;
-    top: -65px;
-
-}
-.volunteer article {
-    height :300px;    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 0px ;
-    margin-top: 15px;
-}
-.volunteer article figure figcaption {
-    
-    height: 180px;
-    background-color: white;
-    border: 1px solid white;
-    padding: 20px;
-}
-.volunteer article figure figcaption ul{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    border-top: 1px solid #878a87;
-    padding-left: 5px;
-    
-}
-.volunteer figure {
-    position: relative;
-    margin-top: 70px;
-    margin-right: 5px;
-}
-.volbutton {
-    width : 40px;
-    height: 40px;
-    background-color: white ;
-    border: 1px solid white;
-    color: grey;
-}
-.btn{
-    width : 40px;
-    height: 40px;
-    background-color: orangered;
-    border: 1px solid  orangered;
-    color: white;
-    margin-top: 0px;
-}
-.butn{
-    width : 40px;
-    height: 40px;
-    background-color:rgb(43, 40, 40) ;
-    border: 1px solid rgb(43, 40, 40);
-    color: white;
-    margin-top: 0px;
-}
-.topnav ul span {
-    display: block;
-    font-size: 13px;
-    margin-left: 15px;
-}
-.buttonleave {
-    margin-top: 8px;
-    margin-left: 8px;
-    width : 40px;
-    height : 40px;
-    border: 1px solid rgba(195, 201, 192, 0.979);
-    color: orangered;
-    background-color: white;
-    float: left;
-}
-footer form{
-    
-    height: 70px;
-    font-size: 13px;
-    background-color: rgb(212, 65, 39);
-    color: white;
-    padding-top: 5px; 
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-footer .end {
-    
-    height: 30px;
-    font-size: 15px;
-    background-color: rgb(24, 22, 22);
-    color: white;
-    padding-top: 15px;
-    margin-top: 0px;
-    text-align: center;
-}
-footer nav .navs .headlinks{
-
-    color: white;
-    text-decoration: none;
-}
-
-footer form input[type=email]{
- font-size: 11px;
- margin-top: 20px;
- width: 350px;
- height: 20px;
- margin-left: 100px;
-}
-footer form button{
-    margin-top: 20px;
-    margin-left: 20px;
-    width: 140px;
-    height: 25px;
-    background-color: rgb(212, 65, 39) ;
-    color: white;
-    border: 1px solid white;
-}
-footer nav{
-    background-color: rgb(41, 39, 39);
-    padding-left: 200px;
-    
-    height: 400px;
-    color: white;
-    display: flex;
-    
-}
-footer nav .navs{
-    width: 200px;
-    height: 240px; 
-
-    list-style: none;
-    margin-top: 120px; 
-}
-footer nav .navs a{
-    margin-bottom: 10px;
-    color: white;
-    text-decoration: none;
-   
-
-}
-footer nav .navs li {
-    margin-bottom: 12px;
-    border-bottom: 1px solid #333533;   
-}
-footer nav .navs li:nth-of-type(1)
-{
-    border-bottom: none;
-}
-footer nav .navsbutton {
-    width: 200px;
-    height: 300px;
-    list-style: none;
-    margin-top: 120px;
-
-    
-}
-.navsbutton button {
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-    margin-right: 5px;
-    margin-top: 8px;
-    padding: 7px 10px 7px 10px;
-    text-decoration: none;
-} 
-.navs a:hover{
-    color: red;
-}
-.navsbutton button:hover {
-    background-color: rgb(231, 62, 0);
-    border-color: rgb(231, 62, 0) ;
-}
-.buttonleave:hover{
-    border: 1px solid orangered;
-    color: white;
-    background-color: orangered;
-
-}
-.leaveusamessage article:hover{
-    
-    border: 1px solid orangered;
-
-}
-
-
-
-.pt {
-    color: red;
-    text-align: center;
-}
-
-.pt::after {
+  .pt::after {
     content:'';
     position: relative;
     display: block;
@@ -700,3 +416,345 @@ footer nav .navsbutton {
     width: 3%;
     height: 2px;
   }
+
+  /* page4 */
+
+
+  .underline4::after{
+    content:'';
+    position: relative;
+    display: block;
+    background-color: red;
+    width: 26%;
+    height: 1px;
+  }
+  .ourcauses article {
+    width: 800px;
+    height: 480px;
+  
+    margin: 20px 0px 50px 270px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .ourcauses article figure {
+    height: 450px;
+    margin-left: 0px ;
+    margin-right: 0px;
+    border: 1px solid rgb(209, 207, 207);
+  }
+  .ourcauses article figure h5 {
+    text-align: start;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 15px;
+  }
+  .ourcauses article figure p{
+    font-size: 12px;
+    color: grey;
+    text-align: start;
+    margin-left: 15px ;
+    margin-right: 15px;
+    margin-bottom: 35px;
+  }
+  
+  .ourcauses article figure .one , .two{
+    width: 205px;
+    height: 20px;
+    padding-left: 20px;
+    margin : 5px 10px 2px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  
+  }
+  .ourcauses article figure .one li {
+    
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    list-style: none;
+  
+  }
+  .ourcauses article figure .two li {
+    list-style: none;
+    color: red;
+    font-size: 12px; 
+  }
+  .ourcauses article figure .slide1{
+    content:'';
+    position: relative;
+    display: block;
+    background-color: red;
+    width: 40%;
+    height: 3px;
+  }
+  .ourcauses article figure .slide2{
+    content:'';
+    position: relative;
+    display: block;
+    background-color: red;
+    width: 60%;
+    height: 3px;
+  }
+  .ourcauses article figure .slide3{
+    content:'';
+    position: relative;
+    display: block;
+    background-color: red;
+    width: 80%;
+    height: 3px;
+  }
+
+  /* page 5 */
+  
+.videostory {
+  
+    height : 400px;
+    background-color: black;
+    border: 1px solid black;
+  }
+  
+  .videostory figure{
+    height: 250px;
+    float: left;
+    margin: 75px 0px 0px 200px;
+    position: relative;
+  }
+  .image1 {
+    position: relative;
+    opacity: 0.4;
+    top :0 ;
+    left: 0;
+  }
+  .image2{
+    position: absolute;
+   top :100px;
+   left: 200px;
+  }
+  .videostory figcaption{
+    height: 250px;
+    margin-top: 85px;
+    margin-left: 680px;
+    color: white;
+    text-align: start;  
+  }
+  .underline5::after{
+    content:'';
+    position: relative;
+    display: block;
+    background-color: red;
+    width: 11%;
+    height: 1px;
+  }
+
+  /* page 6 */
+  .gallery figure {
+  
+    height: 400px;
+    margin-left: 5px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .gallery figure .photo {
+    width: 250px;
+  }
+  .gallery figure .photosgallery {
+    width : 300px;
+  }
+
+  /* page7 */
+  .volunteer {
+    background-color: whitesmoke;
+    padding-bottom: 50px;
+  }
+  .volunteer article {
+    height :300px;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0px ;
+    margin-top: 15px;
+  }
+  .volunteer figure {
+    position: relative;
+    margin-top: 70px;
+    margin-right: 5px;
+  }
+  .volunteer article figure img{
+    margin-left: 30px;
+    position: absolute;
+    top: -65px;
+  
+  }
+  .volunteer article figure figcaption {
+    
+    height: 180px;
+    background-color: white;
+    border: 1px solid white;
+    padding: 20px;
+  }
+  .volunteer article figcaption:hover{
+    
+    box-shadow: 5px 5px 5px 5px rgb(143, 144, 145);
+    transition: all;
+  }
+  .volunteer article figcaption h5{
+    margin-top: 90px;
+    color: rgb(43, 40, 40);
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 15px ;
+  }
+  .volunteer article figcaption h5 p {
+    margin-bottom: 5px;
+  }
+  .volunteer article figure figcaption ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #878a87;
+    padding-left: 5px;
+    
+  }
+  
+  .volbutton {
+    width : 40px;
+    height: 40px;
+    background-color: white ;
+    border: 1px solid white;
+    color: grey;
+  }
+  .volunteer div {
+    color: orangered;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 10px;
+  
+  }
+  .volunteer div i {
+    margin-left: 10px;
+  }
+  .voluntext {
+    font-size: 14px;
+    color: grey;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  /* page 8 */
+  footer nav{
+    background-color: rgb(41, 39, 39);
+    padding-left: 200px;
+    
+    height: 400px;
+    color: white;
+    display: flex;
+    
+  }
+  footer nav .navs{
+    width: 200px;
+    height: 240px; 
+  
+    list-style: none;
+    margin-top: 120px; 
+  }
+  footer nav .navs .headlinks{
+  
+    color: white;
+    text-decoration: none;
+  }
+  .headlinks::after{
+    content:'';
+    position: relative;
+    display: block;
+    background-color: red;
+    width: 28%;
+    height: 1px;
+  }
+  footer nav .navs a{
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  .navs a:hover{
+    color: red;
+  }
+  footer nav .navs li {
+    margin-bottom: 12px;
+    border-bottom: 1px solid #333533;   
+  }
+  footer nav .navs li:nth-of-type(1)
+  {
+    border-bottom: none;
+  }
+  footer nav .navsbutton {
+    width: 200px;
+    height: 300px;
+    list-style: none;
+    margin-top: 120px;
+  
+    
+  }
+  .navsbutton button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-right: 5px;
+    margin-top: 8px;
+    padding: 7px 10px 7px 10px;
+    text-decoration: none;
+  } 
+  
+  .navsbutton button:hover {
+    background-color: rgb(231, 62, 0);
+    border-color: rgb(231, 62, 0) ;
+  }
+  
+  footer form{
+    
+    height: 70px;
+    font-size: 13px;
+    background-color: rgb(212, 65, 39);
+    color: white;
+    padding-top: 5px; 
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer form input[type=email]{
+    font-size: 11px;
+    margin-top: 20px;
+    width: 350px;
+    height: 20px;
+    margin-left: 100px;
+    }
+  
+  
+  
+  footer form button{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 140px;
+    height: 25px;
+    background-color: rgb(212, 65, 39) ;
+    color: white;
+    border: 1px solid white;
+  }
+  footer .end {
+    
+    height: 30px;
+    font-size: 15px;
+    background-color: rgb(24, 22, 22);
+    color: white;
+    padding-top: 15px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  
+  
