@@ -10,19 +10,21 @@ h3{
 /* topbar */
   aside{
     height: 40px;
-    margin-top: 0px;
+    margin: -.5% -.5% 0% -.5% ;
     background-color: rgb(43, 40, 40);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
   }
   aside ul{
     
     width: 300px;
     height: 40px;
-    margin-left: 0px;
+    margin-left: 15% ;
+    margin-right: 10%;
     margin-top: 0px;
     padding-top: 0px;
+    padding-left: 0px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -53,11 +55,10 @@ h3{
   
   .topnav {
     height: 55px;
-    margin-left: 150px;
+    margin-left: 0%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-   
+    justify-content: center;
   }
   .topnav .barbutton {
     visibility: hidden ;
@@ -74,7 +75,6 @@ h3{
     width: 500px;
     height: 40px;
     margin-top: 10px;
-    margin-left: 0px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -82,13 +82,14 @@ h3{
     list-style: none;
     padding-left: 0px;
     
+    
   }
   .topnav p {
     color: red;
     font-size: 19px;
     font-weight: 700;
     margin-top: 15px;
-    margin-right: 10px;
+    margin-right: 5.5%;
   }
   .topnav ul li{
     margin-left: 5px;  
@@ -119,6 +120,7 @@ h3{
   .topnav ul li ul.dropdown {
     width :150px;
     height: 140px;
+    margin-left: 1%;
     background: white;
     display: none;
     position: absolute;
@@ -141,7 +143,7 @@ h3{
   .topnav .donate {
     margin-top: 15px;
     margin-left: 0px;
-    margin-right: 200px;
+    margin-right:0%;
     width: 140px;
     height: 25px;
     font-size: 14px;
@@ -158,7 +160,7 @@ h3{
     background-image: url(slider.jpg);
     background-color: rgba(0, 0, 0, 0.658);
     background-size: 100% 100%; 
-    
+    margin: 0% -.5% 0% -.5% ;
   }
   .frontpage h1 {
     margin-top: 5px;
@@ -184,6 +186,7 @@ h3{
   .frontpage button {
     border: 1px solid white;
     margin-top : -15px;
+    margin-left: 2%;
     width : 130px;
     height: 40px;
     color: white;
@@ -201,7 +204,7 @@ h3{
     background-color: transparent;
     margin-top: -430px;
     width: 600px;
-    margin-left: 350px;
+    margin-left: 32%;
     height : -10px;
   }
   
@@ -215,7 +218,7 @@ h3{
   
 .leaveusamessage form{
     margin-top: -85px;
-    margin-left: 265px;
+    margin-left: 22%;
     width: 240px;
     background-color: white;
     height: 230px;
@@ -281,16 +284,18 @@ h3{
     height: 1px;
   }
   .leavetext{
-    margin-left: 550px;
+    margin-left: 40%;
     margin-bottom: 20px;
     font-size: 15px;
   }
   .leavehead {
     margin-top : 0px;
-    margin-left :550px;
+    font-weight: 900;
+    margin-left :40%;
     margin-bottom : 10px;
     padding-top : 20px;
     text-align: left;
+    font-size: 17px;
     
     
   }
@@ -299,25 +304,27 @@ h3{
     position: relative;
     display: block;
     background-color: red;
-    width: 5%;
+    width: 4%;
     height: 1px;
   }
   
   
   .leaveusamessage section {
     margin-top: 70px;
-    width: 850px;
+    width: 980px;
     height: 250px;
-    margin-left: 250px ;
+    margin-left: 21.5% ;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 80px;
   
   }
   .leaveusamessage article {
-    width : 260px;
+    width : 295px;
     height: 110px;
     border: 1px solid rgb(200, 206, 209);
+    padding: 5px;
   
   }
   .leaveusamessage article:hover{
@@ -326,7 +333,8 @@ h3{
   
   }
   .boxes {
-    margin-right: 10px;
+    margin-right: 12px;
+    margin-bottom: 10px;
   }
   
   .boxes h5{
@@ -341,7 +349,7 @@ h3{
   .boxes p {
     
     color: grey;
-    font-size: 13px;
+    font-size: 14px;
     padding-left: 70px;
   }
   .buttonleave {
@@ -365,6 +373,7 @@ h3{
   .aboutus {
     background-color: whitesmoke;
     height: 470px;
+    margin: 0% -.5% 0% -.5% ;
   }
   .undertext {
     margin-top: 20px;
@@ -385,28 +394,30 @@ h3{
   .aboutus article {
     
     height: 150px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 1%;
+    margin-right: 0px;
     margin-top: -230px;
     padding-bottom: 80px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    
   }
   .aboutus article div {
-    height: 210px;
-    margin-top: 0px;
+    height: 220px;
+    margin-top: -10px;
   }
   .firsttext {
-    margin-right: 300px;
-    padding-right: 10px;
+    margin-right: 290px;
+    padding: 10px;
   }
   .secondtext {
-    padding-left: 0px;
+    padding: 10px;
+    margin-left: 15px;
   }
   .aboutus article div p{
-    font-size: 13px;
+    font-size: 15px;
     color: grey;
     text-align: start;
     margin-bottom: 35px;
@@ -416,7 +427,7 @@ h3{
     text-align:  center;
   }
   .aboutus article div h5{
-    margin-top: 13px;
+    margin-top: 0px;
     margin-bottom: 3px;
     font-weight: 700;
     text-align: start;
@@ -470,27 +481,28 @@ h3{
     height: 1px;
   }
   .ourcauses article {
-    height: 480px;
+    height: 570px;
     margin: 20px 0px 50px 10px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    margin-left: 2%;
   }
   .ourcauses article figure {
-    height: 450px;
+    height: 510px;
     margin-left: 0px ;
-    margin-right: 10px;
+    margin-right: 17px;
     border: 1px solid rgb(209, 207, 207);
   }
   .ourcauses article figure h5 {
     text-align: start;
     margin-left: 15px;
     margin-right: 15px;
-    font-size: 15px;
+    font-size: 17px;
   }
   .ourcauses article figure p{
-    font-size: 12px;
+    font-size: 15px;
     color: grey;
     text-align: start;
     margin-left: 15px ;
@@ -499,9 +511,9 @@ h3{
   }
   
   .ourcauses article figure .one , .two{
-    width: 205px;
+    width: 250px;
     height: 20px;
-    padding-left: 20px;
+    padding-left: 25px;
     margin : 5px 10px 2px 0px;
     display: flex;
     flex-wrap: wrap;
@@ -554,12 +566,14 @@ h3{
     height : 400px;
     background-color: black;
     border: 1px solid black;
+    padding-left: 10.5%;
+    margin: 0% -.5% 0% -.5% ;
   }
   
   .videostory figure{
     height: 250px;
     float: left;
-    margin: 75px 0px 0px 200px;
+    margin: 5% 0% 5% 13.5%;
     position: relative;
   }
   .image1 {
@@ -570,15 +584,19 @@ h3{
   }
   .image2{
     position: absolute;
-   top :100px;
-   left: 200px;
+    top :100px;
+    left: 200px;
   }
   .videostory figcaption{
-    height: 250px;
-    margin-top: 85px;
-    margin-left: 680px;
+    line-height: 140%;
+    height: 290px;
+    margin-top: 80px;
+    margin-left: 45%;
+    margin-right: 21%;
     color: white;
     text-align: start;  
+    font-size: 15px;
+
   }
   .underline5::after{
     content:'';
@@ -588,6 +606,9 @@ h3{
     width: 11%;
     height: 1px;
   }
+  .videostory figcaption h3 {
+    margin-bottom: 30px;
+  }
 
   /* page 6 */
   .gallery {
@@ -595,6 +616,7 @@ h3{
     grid-template-columns: auto auto auto auto auto auto;
     grid-template-rows: repeat(2,1fr);
     grid-gap: 0px 0px;
+    margin: 0% -.5% 0% -.5% ;
     background-color: black;
   }
   .gallery figure img {
@@ -634,8 +656,8 @@ h3{
   color: white;
   font-size: 30px;
   position: absolute;
-  top :220px;
-  left: 150px;
+  top : 45%;
+  left: 50%;
  } 
 .item5{
   grid-column: 7/9;
@@ -653,19 +675,20 @@ h3{
   .volunteer {
     background-color: whitesmoke;
     padding-bottom: 50px;
+    margin: -.6% -.5% 0% -.5% ;
   }
   .volunteer article {
     height :300px;    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 0px ;
+    margin-left: -1% ;
     margin-top: 15px;
   }
   .volunteer figure {
     position: relative;
     margin-top: 70px;
-    margin-right: 5px;
+    margin-right: 1px;
   }
   .volunteer article figure img{
     margin-left: 30px;
@@ -738,15 +761,19 @@ h3{
     margin-bottom: 20px;
   }
   /* page 8 */
+  footer {
+    margin: 0% -.5% -.5% -.5% ;
+  }
   footer nav{
     background-color: rgb(41, 39, 39);
     height: 400px;
     color: white;
     display: flex;
     justify-content: center;
+    margin-left: -3%;
   }
   footer nav .navs{
-    width: 200px;
+    width: 210px;
     height: 240px; 
     list-style: none;
     margin-top: 120px; 
@@ -826,9 +853,10 @@ h3{
     background-color: rgb(212, 65, 39);
     color: white;
     padding-top: 5px; 
-    
+    margin-left: -.5%;
     display: flex;
     justify-content: center;
+    
   }
   footer form input[type=email]{
     font-size: 11px;
@@ -854,601 +882,13 @@ h3{
     color: white;
     padding-top: 15px;
     margin-top: 0px;
+    margin-bottom: 0px;
     text-align: center;
   }
- 
-
-
-  /* -----------------------MEDIA QUERIES----------------------------- */
-  @media(max-width : 1226px)
-  {
-    /* VIDEOSTORY */
-    .videostory figure{
-      
-      margin: 75px 0px 0px 100px;
-    }
-    .videostory figcaption{
-    
-      margin-left: 580px;
-      text-align: start;  
-    }
-    .topnav .donate {
-      margin-right: 50px;
-    }
-
-  }
-
-  @media(max-width : 1157px)
-  {
-    .leaveusamessage form{
-      margin-left: 165px; 
-    }
-    .leavetext{
-      margin-left: 450px;
-    }
-    .leavehead {
-      margin-left :450px;
-    }
-    .leaveusamessage section {
-      margin-left: 150px;
-    }
-
-  }
-
-  @media(max-width : 1110px)
-  {
-    /* VIDEOSTORY */
-    .videostory {
-  
-      height : 450px;
-    }
-    
-    .videostory figure{
-      
-      margin: 75px 0px 0px 50px;
-    }
-    .videostory figcaption{
-    
-      margin-left: 530px;
-      text-align: start;  
-    }
-    .leaveusamessage form{
-      margin-left: 165px; 
-    }
-  }
-
-  @media(max-width : 1040px)
-  {
-    .volunteer {
-      height : 800px;
-    }
-    .volunteer article {
-      display: block;
-      height :300px;    
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  }
-
-  @media(max-width : 1016px)
-  {
-   
-    .leaveusamessage form{
-      margin-left: 25px; 
-    }
-    .leavetext{
-      margin-left: 310px;
-    }
-    .leavehead {
-      margin-left :310px;
-    }
-    .leaveusamessage section {
-      margin-left: 10px;
-    }
-  }
-
-  @media(max-width : 965px)
-  {
-   
- 
-    /*footer*/
-    footer form {
-      
-     height: 70px; 
-     display: flex;
-     flex-wrap: wrap;
-    }
-   footer form input[type=email]{
-     margin-left: 30px;
-     }
- 
-   footer form button{
-     margin-left: 5px;
- 
-   }
-   footer nav {
-     display: block;
-     height: 600px;
-     display: flex;
-     flex-wrap: wrap;
-     flex-direction: column;
-     justify-content: center;
-   }
-   footer nav .navsbutton {
-     margin-top: 55px;
-   }
-   footer nav .navs{
-     width: 200px;
-     height: 200px; 
-     margin-top: 50px; 
-     
-   }
-   footer nav .navs:nth-of-type(3){
-     margin-top: 30px;
-   }
-   footer nav .navs:nth-of-type(2){
-    margin-top: 70px;
-  }
- }
- 
- @media(max-width : 880px)
- { 
-  footer form{
-    height: 95px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-  }
-  footer form h1{
-    margin-bottom: 0px;
-  }
-  footer form input[type=email]{
-      margin-left: 20px;
-  }
-   
-  footer form button{
-        margin-left: 0px;
-  }
-  .leaveusamessage section {
-        width: 700px;
-        height: 450px;
-        margin-left: 10px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-  }
- 
-}
-
- @media(max-width : 844px)
- {
- /* VIDEOSTORY */
- .videostory {
-   
-   height : 700px;
- }
- 
- .videostory figure{
-   
-   margin: 75px 0px 0px 50px;
- }
- .videostory figcaption{
-   margin-top: 50px;
-   margin-left: 50px;
-   text-align: start;  
-   float: left;
- }
- }
-
-  @media(max-width : 800px)
-  { 
-   footer form{
-     height: 120px;
-     display: flex;
-     flex-wrap: wrap;
-     flex-direction: column;
-     padding-top: 5px;
-     padding-left: 5px;
-   }
-   footer form input[type=email]{
-     margin-top: 5px;
-     margin-left: 0px;
-     padding-left: 5px;
-     }
-   footer form button{
-     margin-top: 5px;
-     margin-left: 5px;
-     height: 25px;
-   }
- }
- @media(max-width : 913px)
-{
-  .topnav .donate {
-    display :none;
-  }
-}
-
-@media(max-width : 674px)
-{
-  .butn{
-    margin-top: 0px;
-  }
- aside ul{
-    margin-bottom: 0px;
-    margin-left: -20px;
-  }
-  aside {
-    height: 80px;
-  }
-}
-  @media(max-width : 720px)
-  {
-    .btn{
-      background-color: rgb(43, 40, 40);
-      border: 1px solid  rgb(43, 40, 40);
-      margin-top: 0px;
-    }
-    aside ul{
-      margin-bottom: 0px;
-      margin-left: -20px;
-    }
-    
-
-
-  }
-  @media(max-width : 700px)
-  { 
-   .leaveusamessage section {
-         width: 500px;
-         height: 700px;
-         margin-left: 10px;
-         display: flex;
-         flex-wrap: wrap;
-         justify-content: center;
-       
-       }
-        .leaveusamessage form{
-        margin-left: 100px; 
-      }
-      .leavetext{
-        margin-left: 30px;
-        float: left;
-      }
-      .leavehead {
-        margin-top: 15px;
-        margin-left :30px;
-        float: left;
-      }
- 
- 
-  }
-@media(max-width : 600px)
-{
-  footer form{
-    height: 120px;
-    padding-top: 5px;
-    padding-left: 70px;
-  }
-  footer form input[type=email]{
-    margin-top: 5px;
-    margin-left: -15px;
-    padding-left: 5px;
-    }
-  footer form button{
-    margin-top: 5px;
-    margin-left: 100px;
-    height: 25px;
-  }
-}
-@media (max-width : 578px)
-{
-  /* VIDEOSTORY */
-.videostory {
-  
-  height : 700px;
-}
-
-.videostory figure{
-  
-  margin: 75px 0px 0px 50px;
-}
-.videostory figcaption{
-  margin-top: 10px;
-  margin-left: 50px;
-  margin-right: 10px;
-  text-align: start;  
-  float: left;
-}
-.videostory figure .image1 {
-  width: 370px;
-  height: 200px ;
-
-}
-.image2{
-  position: absolute;
- top :80px;
- left: 170px;
-}
-footer nav {
-  display: block;
-  height: 900px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-}
-footer nav .navsbutton {
-  margin-top: 20px;
-  width: 250px;
-  height : 80px;
-}
-.lastheadlinks {
-  Width :200px;
-  margin-bottom: 10px;
-}
-footer nav .navs{
-  width: 200px;
-  height: 180px; 
-  margin-bottom: 10px;
-  margin-top: 30px; 
-
-}
-footer nav .navs:nth-of-type(3){
-  margin-top: 15px;
-}
-}
-
-
-
-@media (max-width : 536px)
-{
-
-  .ptdiv::after {
-    width: 5.5%;  
-  }
-.ptdiv::before {
-    width: 5.5%;
-}
-  
-  .leaveusamessage section {
-    margin-left: -30px;
-  }
-  footer nav .navs{
-    width: 410px;
-    height: 220px; 
-    margin-top: 10px; 
-    
-  }
-  .headlinks::after{
-    width: 13%;
-  }
-  footer nav .navs:nth-of-type(2) {
-    margin-top: 10px;
-}
-  .frontpage{
-    height: 250px;
-    background-size: 100% 100%; 
-    
-  }
-  .frontpage h1 {
-    margin-top: 5px;
-    font-size: 50px;
-    margin-bottom: 0px;
-  }
-  .frontpage p {
-   display: none;
-  
-  }
-  .frontpage button {
-    display: none;
-  }
-  fieldset {
-    display: none;
+  /*mediaquery*/
+@media screen and (max-width : 536px) {
+  footer .end {
+    color: crimson;
   }
   
-  .volunteer {
-    height : 550px;
-  }
-  .volunteer article {
-    display: block;
-    height :300px;    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .volunteer figure {
-    margin-top :80px;
-  }
-  .volunteer article figure:nth-of-type(2) {
-    display: none;
-  }
-  .volunteer article figure:nth-of-type(3) {
-    display: none;
-  }
-  .volunteer article figure:nth-of-type(4) {
-    display: none;
-  }
-  .volunteer div ul {
-    margin-left: 0px;
-  }
-  .volunteer div ul li {
-    display: inline;
-  }
-  .volunteer div ul .volunteerchange {
-    visibility: visible;
-  }
-  .volunteer div ul .volunteerchanges {
-    visibility: visible;
-  }
-  .leaveusamessage form{
-    margin-top: 10px;
-    margin-left: 70px;
-    width: 320px;
-    height: 260px;
-  }
-  .leaveusamessage form .labelling {
-    margin-left: 30px;
-  }
-  .leaveusamessage input[type=text]{
-    margin-top: 10px;
-    margin-left: 30px;
-    width: 250px;
-    height: 35px;
-  }
-  .leaveusamessage input[type=email]{
-    margin-top: 10px;
-    margin-left: 30px;
-    width: 250px;
-    height: 35px;
-  }
-  .leaveusamessage input[type=checkbox]{
-    margin-left: 30px;
-  }
-  .leaveusamessage form button{
-    width: 255px;
-    height: 35px;
-    margin-left: 30px;
-    margin-top: 20px;
-  }
-  .leavetext
-  {
-    margin-left: 70px;
-    margin-right: 20px;
-    font-size: 14px;
-  } 
-  .leavehead::after{
-    width: 23%;
-  }
-  .leavehead {
-    margin-top: 30px;
-    margin-left :70px;
-   
-  }
-  .gallery {
-    grid-template-columns: auto;
-    grid-template-rows: 1fr 1fr 1fr 2fr 0.5fr 0.5fr;
-    grid-gap: 0px 0px;
-    display: block;
- }
- .item4 {
-  opacity: 1;
- }
- .imageicon{
-  display: none;
- } 
-}
-@media (max-width : 834px)
-{
-  .ourcauses article {
-    height: 900px;
-  }
-  .ourcauses article figure {
-    margin-top: 7px;
-  }
-}
-@media (max-width : 569px)
-{
-  .ourcauses article {
-    height: 1400px;
-  }
-  .ourcauses article figure {
-    margin-top: 7px;
-  }
-}
-@media (max-width : 1070px)
-{
-  .topnav {
-    margin-left: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-   
-  }
-  .topnav p {
-    margin-left: 10px;
-  }
- .topnav ul {
-    width: 500px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-}
-@media (max-width : 980px)
-{
-  .aboutus{
-    height: 650px;
-  }
-  .aboutus article {
-    margin-top: 0px;
-  }
-  .aboutus article div {
-    margin-top: 0px;
-  }
-  .firsttext {
-    margin-right: 150px;
-  }
-}
-
-@media (max-width : 828px)
-{
-  .aboutus {
-    height: 900px;  
-    } 
-    .aboutus article {
-    margin-top: 0px;
-    display: block;
-    }
-    .firsttext {
-    margin-right: 0px;
-    margin-top: 30px;
-    }
-    .secondtext{
-      margin-top: 20px;
-    }
-    .aboutus article div p{
-      margin-left: 60px;
-    }
-    .aboutus article div h5{
-      margin-left: 60px;
-    }
-}
-@media (max-width: 510px)
-{
-
-   .undertext {
-    margin-left: 85px; 
-    width: 300px;
-    height : 50px;
-}
-
-
-
-}
-@media (max-width :764px)
-{
-  .topnav {
-    color: rgb(177, 172, 172);
-  }
-  .topnav .barbutton {
-    visibility: visible ;
-    margin-left: 100px;
-    color: rgb(177, 172, 172);
-
-  }
-  .topnav .listbar {
-    display: none;
-  }
-  .topnav .barbutton:hover + .listbar {
-    display: block;
-    margin-left: 380px;
-  }
-}
-@media (max-width :790px)
-{
-  .volunteer .volunteerchange {
-    visibility: hidden;
-  }
 }
