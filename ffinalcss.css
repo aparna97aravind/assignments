@@ -88,7 +88,7 @@ h3{
     font-size: 19px;
     font-weight: 700;
     margin-top: 15px;
-    margin-right: 2.5%;
+    margin-right: .3%;
   }
   .topnav ul li{
     margin-left: 5px;  
@@ -180,12 +180,12 @@ h3{
     margin-top: 10px;
     margin-bottom: 0px;
     padding-bottom: 10px;
-  
+    text-align: center;
   }
   .frontpage button {
     border: 1px solid white;
     margin-top : -15px;
-    margin-left: 2%;
+    margin-left: 0%;
     width : 130px;
     height: 40px;
     color: white;
@@ -203,7 +203,7 @@ h3{
     background-color: transparent;
     margin-top: -430px;
     width: 600px;
-    margin-left: 32%;
+    margin-left: 26%;
     height : -10px;
   }
   
@@ -501,7 +501,7 @@ h3{
     font-size: 17px;
   }
   .ourcauses article figure p{
-    font-size: 15px;
+    font-size: 14px;
     color: grey;
     text-align: start;
     margin-left: 15px ;
@@ -510,7 +510,7 @@ h3{
   }
   
   .ourcauses article figure .one , .two{
-    width: 250px;
+    width: 230px;
     height: 20px;
     padding-left: 25px;
     margin : 5px 10px 2px 0px;
@@ -686,15 +686,16 @@ h3{
     position: relative;
     margin-top: 70px;
     margin-right: 1px;
+    margin-left: 17px;
   }
   .volunteer article figure img{
-    margin-left: 30px;
+    margin-left: 25px;
     position: absolute;
     top: -65px;
   
   }
   .volunteer article figure figcaption {
-    
+    width : 160px;
     height: 180px;
     background-color: white;
     border: 1px solid white;
@@ -720,7 +721,7 @@ h3{
     display: flex;
     flex-wrap: wrap;
     border-top: 1px solid #878a87;
-    padding-left: 5px;
+    padding-left: 0px;
     
   }
 
@@ -767,9 +768,10 @@ h3{
     color: white;
     display: flex;
     justify-content: center;
+    margin-left: -6%;
   }
   footer nav .navs{
-    width: 195px;
+    width: 180px;
     height: 240px; 
     list-style: none;
     margin-top: 120px; 
@@ -824,6 +826,7 @@ h3{
     height : 150px;
     display: flex;
     flex-wrap: wrap;
+    margin-left: -.5%;
     
   }
   .navsbutton button {
@@ -845,21 +848,21 @@ h3{
   footer form{
     
     height: 70px;
-    font-size: 13px;
+    font-size: 12px;
     background-color: rgb(212, 65, 39);
     color: white;
     padding-top: 5px; 
     margin-left: -.5%;
     display: flex;
     justify-content: center;
-    
+    padding-left: .5%;
   }
   footer form input[type=email]{
     font-size: 11px;
     margin-top: 20px;
-    width: 350px;
+    width: 300px;
     height: 20px;
-    margin-left: 100px;
+    margin-left: 8%;
     }
   footer form button{
     width : 140px;
@@ -885,11 +888,7 @@ h3{
 
 @media (max-width: 930px)
 {
-  aside {
-    height: 80px;
-  }
-  .btn{
-    background-color: rgb(43, 40, 40);
-    border: 1px solid rgb(43, 40, 40);
+  footer .end {
+    color: chartreuse;
   }
 }
